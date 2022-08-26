@@ -1,0 +1,49 @@
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+#watermelon{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 200px;
+    position: relative;
+}
+
+#watermelon div{
+    position: absolute;
+    border-radius: 0 0 100px 100px;
+}
+
+#watermelon div:first-child{
+    background-color: rgb(18, 130, 5);
+    width: 100%;
+    height: 100%;
+}
+
+#watermelon div:nth-child(2){
+    background-color: rgb(164, 231, 139);
+    width: 95%;
+    height: 95%;
+}
+
+#watermelon div:nth-child(3){
+    background-color: rgb(255, 66, 66);
+    width: 90%;
+    height: 90%;
+}
+
+#watermelon i {
+    border-top: 6px solid #626262;
+    border-bottom: 6px solid #626262;
+    border-left: 2px solid #626262;
+    border-right: 2px solid #626262;
+    background-color: #626262;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: absolute;
+    border-radius: 2px / 6px;
+}
